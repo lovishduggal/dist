@@ -46,7 +46,7 @@
             </div>
         </nav>
         <div
-            class="w-[90%]  max-w-[1440px] m-auto flex flex-col items-center justify-center  py-8 space-y-8 lg:flex-row  h-[100vh]">
+            class="w-[90%]  max-w-[1440px] m-auto flex flex-col items-center justify-center  py-8 space-y-8 lg:space-y-0 lg:flex-row  h-[100vh]">
             <div class="w-full h-full flex items-center justify-center">
                 <div class=" text-center space-y-4 lg:text-start ">
                     <h1 class=" text-4xl font-bold lg:text-6xl">Find High-Potential Customers with <span
@@ -67,7 +67,8 @@
                 </div>
             </div>
             <div class="w-full h-full flex items-center justify-center lg:justify-end">
-                <img class="object-cover" src="./assets/Man mobile.png" alt="">
+                <img class="object-cover lg:hidden" src="./assets/Man mobile.png" alt="">
+                <img class="object-cover hidden lg:block" src="./assets/Man laptop.jpg" alt="">
             </div>
         </div>
     </header>
@@ -131,6 +132,89 @@
             </div>
         </div>
     </section>
+
+    <section class="pt-8 bg-[#12141D]">
+        <div class="space-y-6 flex flex-col items-center justify-center w-[90%] max-w-[1440px] m-auto lg:flex-row">
+            <div class="space-y-4 flex flex-col items-center justify-center w-full h-full lg:items-start">
+                <h2 class="font-semibold text-2xl text-white">Take Your Customer
+                    Service To The Next Level</h2>
+                <div class="flex justify-start items-center">
+                    <div
+                        class="flex justify-center items-center space-x-4 border bg-[#043A53]  rounded-3xl px-3 py-2 border-none">
+                        <span class="text-white">Get 14 Days Free Trail
+                        </span>
+                        <i class="fa-solid fa-arrow-right  px-2 py-2 rounded-full text-white bg-[#042E41] text-xs"></i>
+                    </div>
+                </div>
+                <span class="text-white block">No credit card required</span>
+            </div>
+            <div class="w-full h-full flex justify-center items-center lg:justify-end">
+                <img class="object-cover" src="./assets/Decorations.png" alt="Decorations">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-8 ">
+        <div class="w-[90%] max-w-[1440px] m-auto space-y-8 flex flex-col lg:flex-row justify-between items-center">
+            <div class="space-y-4 flex flex-col  items-center justify-center lg:w-[30%]">
+                <img src="./assets/Logo.png" alt="">
+                <ul class="flex items-center gap-4">
+                    <li><i
+                            class="fa-brands fa-facebook  text-2xl text-gray-400 hover:text-[#043A53] transition-all ease-in-out duration-300"></i>
+                    </li>
+                    <li><i
+                            class="fa-brands fa-instagram  text-2xl text-gray-400 hover:text-[#043A53] transition-all ease-in-out duration-300"></i>
+                    </li>
+                    <li><i
+                            class="fa-brands fa-twitter  text-2xl text-gray-400 hover:text-[#043A53] transition-all ease-in-out duration-300"></i>
+                    </li>
+                </ul>
+            </div>
+            <p class="text-center  lg:w-[40%]">An awesome &amp; poweful tools for your business, increase business
+                revenue. with
+                evaluating in depth
+                variety
+                of data sets and including the speed of tech adaptation we can build bridges between any companies and
+                their customers.</p>
+            <div class="flex items-center justify-center gap-20  lg:w-[30%]">
+                <div class="flex flex-col items-start justify-center">
+                    <h4 class="font-semibold text-xl">Home</h4>
+                    <ul>
+                        <li>Features</li>
+                        <li>Solutions</li>
+                        <li>Resources</li>
+                        <li>Pricing</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col items-start justify-center">
+                    <h4 class="font-semibold text-xl">About Us</h4>
+                    <ul>
+                        <li>Company</li>
+                        <li>Solutions</li>
+                        <li>Career</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#E5E7EB] text-[#939ba7] py-8 text-center">
+        <div
+            class="w-[90%] max-w-[1440px] m-auto space-y-4 lg:space-y-0 flex flex-col items-center justify-between lg:flex-row">
+            <div class="space-x-4">
+                <span>Terms of Service</span>
+                <span>Privacy Policy</span>
+                <span>Language</span>
+            </div>
+            <div class="space-x-1 ">
+                <i class="fa-solid fa-globe"></i><span>English</span><i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div>
+                &copy; 2022-2023 Trustco.
+            </div>
+        </div>
+    </footer>
     <script>
         const hamburger = document.getElementsByClassName('fa-solid')[0];
         const navbar = hamburger.nextElementSibling;
